@@ -29,7 +29,7 @@ namespace POMTest1.Test
             clkfromHome.ClkWhoOwnSite();
 
 
-            //driver.Quit()
+            driver.Quit();
         }
     }
 }
