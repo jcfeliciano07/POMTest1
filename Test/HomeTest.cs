@@ -1,5 +1,8 @@
 ﻿using AngleSharp.Html.InputTypes;
 using NUnit.Framework;
+using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium;
 using POMTest1.Base;
 using POMTest1.Pages;
 using System;
@@ -27,7 +30,8 @@ namespace POMTest1.Test
             HomePage clkfromHome = new HomePage(driver);
             clkfromHome.ClkCreateNewSite();
             clkfromHome.ClkWhoOwnSite();
-
+            clkfromHome.HoverManage();
+            clkfromHome.ClkBluePrint();
 
             driver.Quit();
         }

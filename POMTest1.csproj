@@ -20,4 +20,10 @@
     <PackageReference Include="WebDriverManager" Version="2.16.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Pages\HomePage.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>
