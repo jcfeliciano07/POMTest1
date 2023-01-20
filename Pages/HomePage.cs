@@ -16,6 +16,8 @@ namespace POMTest1.Pages
         By ClickNewSite = By.XPath("//a[@data-log-event='new-site_hero']");
         By ClickOwnThisSite = By.XPath("//label[@for='owner_org']");
         By ClkBluePrn = By.LinkText("Blueprints");
+        By ClkAcct = By.LinkText("Account");
+        
 
 
 
@@ -42,5 +44,16 @@ namespace POMTest1.Pages
             driver.FindElement(ClkBluePrn).Click();
 
         }
+        public void HoverAcctOption() //Mouse Hover function
+        {
+            Actions builder = new Actions(driver);
+            builder.MoveToElement(driver.FindElement(By.TagName("img"))).Click().Build().Perform();
+        }
+        public void ClkAcctOp()
+        {
+            driver.FindElement(ClkAcct).Click();
+
+        }
+
     }
 }

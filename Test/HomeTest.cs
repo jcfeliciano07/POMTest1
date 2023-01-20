@@ -25,13 +25,15 @@ namespace POMTest1.Test
             login.TypeUsername();
             login.TypePassword();
             login.ClickLoginButton();
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
 
             HomePage clkfromHome = new HomePage(driver);
             clkfromHome.ClkCreateNewSite();
             clkfromHome.ClkWhoOwnSite();
             clkfromHome.HoverManage();
             clkfromHome.ClkBluePrint();
+            clkfromHome.HoverAcctOption();
+            clkfromHome.ClkAcctOp();
 
             driver.Quit();
         }
