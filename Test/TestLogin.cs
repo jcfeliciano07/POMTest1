@@ -23,7 +23,7 @@ namespace POMTest1.Test
             login.ClickLoginButton();
           
 
-            Thread.Sleep(5000);
+            Thread.Sleep(3000);
             //driver.Quit();
      
 
