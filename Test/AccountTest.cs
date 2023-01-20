@@ -11,6 +11,7 @@ namespace POMTest1.Test
 {
     public class AccountTest : BaseClass
     {
+
         [Test, Order(0)]
         public void VerifyAccountPage()
         {
