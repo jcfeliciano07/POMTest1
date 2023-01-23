@@ -23,11 +23,16 @@ namespace POMTest1.Test
             login.ClickLoginButton();
             Thread.Sleep(3000);
 
-            HomePage clkAccount = new HomePage(driver);
+            AccountPage clkAccount = new AccountPage(driver);
             clkAccount.HoverAcctOption();
             clkAccount.ClkAcctOp();
+            clkAccount.ClkVerAccount();
+            clkAccount.ClkCountCode();
+            clkAccount.ClkSelectCCode();
+            clkAccount.InputPcodenum();
+            clkAccount.ClkSendCodeButton();
 
-
+            // driver.Quit();
         }
     }
 }
