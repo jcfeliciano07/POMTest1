@@ -14,6 +14,9 @@ namespace POMTest1.Base
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://getflywheel.com/wordpress-support/what-is-a-demo-site/");
+
+           
+
         }
 
         [OneTimeTearDown]
