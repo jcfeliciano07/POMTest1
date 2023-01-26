@@ -17,9 +17,9 @@ namespace POMTest1.Pages
         By ClkBilling = By.CssSelector("a[title='Billing']");
         By ClkPayMeth = By.LinkText("Payment Methods");
         By ClkAddPayMeth = By.CssSelector("h6[class='--alt']");
-        //By clickPayMethTab = By.Id("payment-type-tab-0");
-        //By AddCardHolderName = By.ClassName("jss46");
-        //By AddCardNum = By.CssSelector("#creditCardNumber");
+       // By clickPayMethTab = By.XPath("//button[@id='payment-type-tab-0']//span[@class='MuiTab-wrapper']");
+        By AddCardHolderName = By.CssSelector("#cardholderName");
+        By AddCardNum = By.CssSelector("#creditCardNumber");
 
 
         public BillingPage(IWebDriver driver)
@@ -46,15 +46,15 @@ namespace POMTest1.Pages
         }
         //public void ClkAddPayMethodtab()
         //{
-        //driver.FindElement(clickPayMethTab).Click();
+        ////driver.FindElement(clickPayMethTab).Click();
         //}
-        //public void AddCardHolderName_()
-        //{
-        //    driver.FindElement(AddCardHolderName).SendKeys("Selenium Automation");
-        //}
-        //public void AddCardNum_()
-        //{
-        //    driver.FindElement(AddCardNum).SendKeys("5245225236364646");
-       // }
+        public void AddCardHolderName_()
+        {
+            driver.FindElement(AddCardHolderName).SendKeys("Selenium Automation");
+        }
+        public void AddCardNum_()
+        {
+            driver.FindElement(AddCardNum).SendKeys("5245225236364646");
+        }
     }
 }

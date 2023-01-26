@@ -35,7 +35,8 @@ namespace POMTest1.Test
             clkSecuri.ClkSavePasswrd();
 
             //Window Browser Zoom IN & Out
-            ((IJavaScriptExecutor)driver).ExecuteScript("document.body.style.transform='scale(0.6)';");
+            IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
+            jse.ExecuteScript("document.body.style.transform='scale(0.7)';");
 
             clkSecuri.ClkCancelButton();
 
