@@ -15,7 +15,8 @@ namespace POMTest1.Base
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://getflywheel.com/wordpress-support/what-is-a-demo-site/");
 
-
+            IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
+            jse.ExecuteScript("document.body.style.transform='scale(0.7)';");
 
 
         }

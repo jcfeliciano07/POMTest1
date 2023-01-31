@@ -35,8 +35,6 @@ namespace POMTest1.Test
 
             Thread.Sleep(5000);
             //Scroll Down
-            // IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            //js.ExecuteScript("window.scrollTo(100, document.body.scrollHeight)");
             IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
             jse.ExecuteScript("document.body.style.transform='scale(0.7)';");
 
