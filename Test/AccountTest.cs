@@ -32,7 +32,7 @@ namespace POMTest1.Test
             clkAccount.InputPcodenum();
             clkAccount.ClkSendCodeButton();
 
-            // driver.Quit();
+            driver.Quit();
         }
     }
 }

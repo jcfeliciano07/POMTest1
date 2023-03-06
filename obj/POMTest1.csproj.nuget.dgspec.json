@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeremy.feliciano\\source\\repos\\POMTest1\\POMTest1.csproj": {}
+    "D:\\JCFeliciano\\Automation\\Selenium C#\\Selenium C#\\Sample Projects\\POMTest1\\POMTest1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeremy.feliciano\\source\\repos\\POMTest1\\POMTest1.csproj": {
+    "D:\\JCFeliciano\\Automation\\Selenium C#\\Selenium C#\\Sample Projects\\POMTest1\\POMTest1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeremy.feliciano\\source\\repos\\POMTest1\\POMTest1.csproj",
+        "projectUniqueName": "D:\\JCFeliciano\\Automation\\Selenium C#\\Selenium C#\\Sample Projects\\POMTest1\\POMTest1.csproj",
         "projectName": "POMTest1",
-        "projectPath": "C:\\Users\\jeremy.feliciano\\source\\repos\\POMTest1\\POMTest1.csproj",
+        "projectPath": "D:\\JCFeliciano\\Automation\\Selenium C#\\Selenium C#\\Sample Projects\\POMTest1\\POMTest1.csproj",
         "packagesPath": "C:\\Users\\jeremy.feliciano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeremy.feliciano\\source\\repos\\POMTest1\\obj\\",
+        "outputPath": "D:\\JCFeliciano\\Automation\\Selenium C#\\Selenium C#\\Sample Projects\\POMTest1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeremy.feliciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
