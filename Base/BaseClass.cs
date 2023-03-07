@@ -18,9 +18,9 @@ namespace POMTest1.Base
         }
 
         [OneTimeTearDown]
-        public void close(),,
+        public void close()
         {
-         driver.Quit()
+         driver.Quit(),
         }
     }
 }
